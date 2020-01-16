@@ -35,3 +35,12 @@ describe 'creating bears table' do
 end
 
 
+CREATE TABLE bears (
+//columns here
+id INTEGER PRIMARY KEY,
+name BEAR,
+age 777
+gender MALE,
+color PINK
+temperament GOOD
+alive TRUE);
