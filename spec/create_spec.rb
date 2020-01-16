@@ -45,5 +45,10 @@ color PINK
 temperament GOOD
 alive TRUE);
 
-INSERT INTO bears (name, a', 'TRUE');ge, gender, color, temperament, alive) VALUES ('Mr.Chocolate', 3, 'Male', 'PINK', 'GOOD', 'TRUE');
-INSERT INTO bears (name, a', 'TRUE');ge, gender, color, temperament, alive) VALUES ('Mr.Chocolate', 3, 'Male', 'PINK', 'GOOD', 'TRUE');
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Mr.Chocolate', 3, 'Male', 'PINK', 'GOOD', 'TRUE');
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Rowdy', 6, 'Male', 'BROWN', 'SAD', 'TRUE');
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Tabitha', 7, 'Female', 'ORANGE', 'ANGRY', 'TRUE');
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Sergeant Brown', 11, 'Male', 'BLUE', 'GOOD', 'TRUE');
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Melissa', 2, 'Female', 'PURPLE', 'GOOD', 'TRUE');
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Grinch', 8, 'Male', 'GREEN', 'GOOD', 'TRUE');
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Wendy', 777, 'Female', 'GOLD', 'GOOD', 'TRUE');
