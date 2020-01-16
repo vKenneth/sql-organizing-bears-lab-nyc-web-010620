@@ -33,3 +33,22 @@ describe 'creating bears table' do
     expect(@db.execute("PRAGMA table_info(bears);").detect { |arr| arr[-1] == 1 && arr[2] == "INTEGER" }.length).to eq(6)
   end
 end
+
+
+CREATE TABLE bears (
+//columns here
+id INTEGER PRIMARY KEY,
+name BEAR,
+age 777
+gender MALE,
+color PINK
+temperament GOOD
+alive TRUE);
+
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Mr.Chocolate', 3, 'Male', 'PINK', 'GOOD', 'TRUE');
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Rowdy', 6, 'Male', 'BROWN', 'SAD', 'TRUE');
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Tabitha', 7, 'Female', 'ORANGE', 'ANGRY', 'TRUE');
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Sergeant Brown', 11, 'Male', 'BLUE', 'HAPPY', 'TRUE');
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Melissa', 2, 'Female', 'PURPLE', 'CRYING', 'TRUE');
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Grinch', 8, 'Male', 'GREEN', 'JOY', 'TRUE');
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Wendy', 777, 'Female', 'GOLD', 'EVIL', 'FALSE');
