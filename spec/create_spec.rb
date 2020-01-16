@@ -44,3 +44,5 @@ gender MALE,
 color PINK
 temperament GOOD
 alive TRUE);
+
+INSERT INTO bears (name, age, gender, color, temperament, alive) VALUES ('Mr.Chocolate', 3, 'MA');
