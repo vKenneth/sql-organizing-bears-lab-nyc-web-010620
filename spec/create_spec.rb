@@ -45,4 +45,5 @@ color PINK
 temperament GOOD
 alive TRUE);
 
-INSERT INTO bears (name, a', 'TRUE');ge, gender, color, temperament, alive) VALUES ('Mr.Chocolate', 3, 'Male', 'PINK', 'GOOD
+INSERT INTO bears (name, a', 'TRUE');ge, gender, color, temperament, alive) VALUES ('Mr.Chocolate', 3, 'Male', 'PINK', 'GOOD', 'TRUE');
+INSERT INTO bears (name, a', 'TRUE');ge, gender, color, temperament, alive) VALUES ('Mr.Chocolate', 3, 'Male', 'PINK', 'GOOD', 'TRUE');
