@@ -45,3 +45,10 @@ color PINK
 temperament GOOD
 alive TRUE);
 
+CREATE (Mr. Chocolate
+Rowdy
+Tabitha
+Sergeant Brown
+Melissa
+Grinch
+Wendy)
